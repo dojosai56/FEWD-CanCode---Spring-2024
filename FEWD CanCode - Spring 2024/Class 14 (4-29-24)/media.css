@@ -1,0 +1,22 @@
+body {
+    background-color: aquamarine;
+}
+
+@media screen and (min-width:500px){
+    body {
+        background-color: yellowgreen;
+    }
+
+@media screen and (min-width:800px){
+    body {
+        background-color: purple;
+    }
+
+/*Device screen is bigger so enlarge the text*/
+@media screen and (min-width:800px) {
+    p {
+        font-size:x-large;
+    }
+}
+}
+}

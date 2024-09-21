@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+@keyframes example {
+    0% {background-color: firebrick; left:0px; top:0px;}
+    25% {background-color: gold; left:200px; top:0px;}
+    50% {background-color: blueviolet; left:200px; top:200px;}
+    75% {background-color: maroon; left:0px; top: 200px;}
+    100% {background-color: greenyellow; left:0px; top:0px;}
+}

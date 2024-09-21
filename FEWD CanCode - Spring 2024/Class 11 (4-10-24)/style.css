@@ -1,0 +1,58 @@
+body{
+    font-family: Arial;
+}
+
+.colordiv {
+    background-color: purple;
+    color: azure;
+    text-align: center;
+    font-size: 16pt;
+    width: 200px;
+    height: 200px;
+    transition: background-color 1s ease;
+}
+
+.colordiv:hover {
+    background-color: chartreuse;
+    color: darkblue;
+}
+
+.opacitydiv {
+    background-color: black;
+    opacity: .5;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20pt;
+    width: 200px;
+    height: 200px;
+    transition: opacity 2s linear;
+}
+
+.opacitydiv:hover {
+    opacity:1.0;
+}
+
+.sizediv {
+    border: 2px dashed sienna;
+    width: 200px;
+    height: 200px;
+    font-size: 20pt;
+    transition: width ls ease;
+}
+.sizediv:hover {
+    width: 400px;
+}
+
+/*------------------------------------*/
+
+.bolddiv {
+    border: 2px dashed lightblue;
+    width: 200px;
+    height: 200px;
+    transition: font-weight ls ease, font-size ls ease;
+    font-weight: 100;
+}
+.bolddivhover {
+    font-weight:900;
+    font-size: 200%;
+}

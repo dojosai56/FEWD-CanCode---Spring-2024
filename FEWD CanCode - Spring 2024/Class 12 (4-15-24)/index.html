@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1 id ="mouse"></h1>
+
+<script>
+    function board(p1, p2, p3, p4) {
+        return p1 + (p2 * p4);
+    }
+
+    document.getElementById("mouse").innerHTML = board(67, 30, 58, 103);
+</script>
+
+<h1 id ="key"></h1>
+
+<script>
+    function board(p5, p6, p7) {
+        return p5 - (p7/p6);
+    }
+
+    document.getElementById("key").innerHTML = board(84, 62, 95);
+</script>
+
+<h1 id ="floppy"></h1>
+
+<script>
+    function board(p1, p3, p5, p7) {
+        return p1 + (p3 * p5) - p7;
+    }
+
+    document.getElementById("floppy").innerHTML = board(66, 86, 75, 96);
+</script>
+</body>
+</html>

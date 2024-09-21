@@ -1,0 +1,24 @@
+.duck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap-reverse;
+    justify-content: center ; /*flexstart */
+    align-items: center;    
+}
+
+.duck > div {
+    background-color: blue;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.duck .cup {
+    background-color: purple;
+}
+
+#paper {
+    padding: 10px;
+}

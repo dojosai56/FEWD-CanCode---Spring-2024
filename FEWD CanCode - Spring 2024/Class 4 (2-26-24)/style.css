@@ -1,0 +1,21 @@
+div.box {
+    color: white;
+    background-color: darkmagenta;
+    font-size: 100px;
+    font-style: normal;
+    width: 100px;
+    border: 4px solid black;
+    margin: 2px;
+}
+#first{
+    background-color: red;
+}
+#second{
+    background-color: rgb(121, 10, 110);
+}
+#third{
+    background-color: rgb(64, 0, 255);
+}
+#fourth{
+    background-color: rgb(13, 255, 0);
+}

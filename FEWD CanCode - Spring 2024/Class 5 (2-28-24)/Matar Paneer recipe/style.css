@@ -1,0 +1,104 @@
+body {
+    background-color: lightblue;
+  }
+#structure {
+    color: rgb(56, 67, 247);
+    border-style: dashed;
+    border-color: gold;
+    border-width: 15px;
+}
+
+h1{
+    text-align: center;
+    color: darkgoldenrod;
+    font-family:'Trebuchet MS';
+}
+p{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: black;
+    font-size: 30 px;
+    font-family: 'Lucida Sans Unicode';
+}
+ 
+#matar-paneer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  width: 30%;
+}
+
+#paratha {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 40%;
+}
+.imagetext{
+    text-align: center;
+}
+.segway{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 30px;
+    color: darkgreen;
+    font-family: 'Franklin Gothic Medium';
+}
+
+h2{
+    text-align: center;
+    color:grey;
+    font-family:'Trebuchet MS';
+}
+ul{
+    text-align: center; 
+    list-style-position: inside;
+    color: firebrick;
+    font-family: "Verdana";
+    font-size: 16px;
+}
+
+ol{
+    text-align: center; 
+    color:brown;
+    font-family: "Verdana";
+    font-size: 16px;
+}
+
+li{
+    margin: 0.25rem;
+}
+
+.column {
+    float:left;
+    
+    p{
+        font-family: "Calibri" 'Trebuchet MS';
+        color:coral;
+        font-size: 20px;
+        margin-left: 350px;
+    }
+    
+    img {
+        border-radius: 10%;
+        height: 30%;
+        margin-left: 350px;
+    }
+    
+  }
+
+  
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
